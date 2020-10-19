@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:textAlignment="center">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/eventName">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sacuvaj">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:text="@string/vrijeme">
+
+        </TextView>
+
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:timePickerMode="spinner"
+            android:id="@+id/time">
+
+        </TimePicker>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:text="@string/vrijeme2">
+
+        </TextView>
+
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:timePickerMode="spinner"
+            android:id="@+id/time2">
+
+        </TimePicker>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/podsjetnik"
+            android:layout_weight="19">
+
+        </TextView>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:id="@+id/check">
+
+        </CheckBox>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/lokacija">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:id="@+id/insertLocation"
+            android:layout_weight="6"
+            android:maxLength="20">
+
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="@string/ok"
+            android:id="@+id/okButton">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxWidth="40dp"
+            android:maxHeight="40dp"
+            android:id="@+id/weatherIcon"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_weight="1">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tempTxt"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

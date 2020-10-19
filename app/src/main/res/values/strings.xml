@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CalendarApp</string>
+    <string name="godina">godina</string>
+    <string name="mjesec">mjesec</string>
+    <string name="dan">dan</string>
+    <string name="izaberite_tip_pregleda">Izaberite tip pregleda</string>
+    <string name="januar">Januar</string>
+    <string name="februar">Februar</string>
+    <string name="mart">Mart</string>
+    <string name="april">April</string>
+    <string name="maj">Maj</string>
+    <string name="jun">Jun</string>
+    <string name="jul">Jul</string>
+    <string name="avgust">Avgust</string>
+    <string name="septembar">Septembar</string>
+    <string name="oktobar">Oktobar</string>
+    <string name="novembar">Novembar</string>
+    <string name="decembar">Decembar</string>
+    <string name="_2020">2020</string>
+    <string name="dodaj">dodaj</string>
+    <string name="vrijeme">Vrijeme od:</string>
+    <string name="podsjetnik">Podsjetnik:</string>
+    <string name="error_empty_input">Unesite ispravan naziv događaja!</string>
+    <string name="dialogMessage">Šta želite da uradite sa ovim događajem?</string>
+    <string name="obrisi">Оbriši događaj</string>
+    <string name="izmijeni">Izmijeni događaj</string>
+    <string name="eventName">EventName</string>
+    <string name="eventTag">eventName</string>
+    <string name="Date">Date</string>
+    <string name="lokacija">Lokacija:</string>
+    <string name="ok">ok</string>
+    <string name="connectFailed">Connecting to the server failed.</string>
+    <string name="BASE_URL">https://api.openweathermap.org/data/2.5/weather?q=</string>
+    <string name="API_KEY"><![CDATA[&appid=69fa247504710f549ee8f957ae9a34b1]]></string>
+    <string name="ICON_URL">https://openweathermap.org/img/w/</string>
+    <string name="noLocation">Vremenska prognoza za lokaciju nije dostupna</string>
+    <string name="sacuvaj">sačuvaj događaj</string>
+    <string name="ToastInfo">Sva polja moraju biti popunjena</string>
+    <string name="disableNotifications">  notifications disabled.</string>
+    <string name="name">name</string>
+    <string name="date">date</string>
+    <string name="vrijeme2">Vrijeme do:</string>
+</resources>
